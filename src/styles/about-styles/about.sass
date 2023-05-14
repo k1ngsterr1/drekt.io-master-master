@@ -105,6 +105,9 @@ $font64: clamp(32px,3.33312vw,128px)
                             margin-left: auto
                             margin-right: auto
 
+                .regular-container
+                    display: none
+
                 .specific-cases
                     width: 100%
                     display: flex
@@ -157,3 +160,99 @@ $font64: clamp(32px,3.33312vw,128px)
             .model-heading
                 margin-top: clamp(10px,4.6728vw,40px)
                 color: $blue
+
+@media screen  and (min-width: 482px)
+
+    *
+        body
+
+            .about-screen
+                width: 100%
+                height: auto
+
+                .container
+                    width: 86.45833333333333%
+                    margin-top: $pc128
+
+                    .about-content
+
+                        .about-heading
+                            width: clamp(270px,28.1232vw,1080px)
+                            text-align: center
+                            font-size: $font64
+
+                        .about-p
+                            width: clamp(285.5px,29.73768vw,1142px)
+                            font-size: $font21
+
+                        .regular-cases
+                            width: 100%
+                            display: flex
+
+                            .reg-cases-heading
+                                font-size: $font48
+
+                            .swiper-container
+                                display: none
+
+                            .regular-container
+                                width: 100%
+                                display: flex
+                                align-items: center
+                                justify-content: space-between
+                                margin-top: $pc64
+
+                                .model-container
+                                    width: 100%
+                                    display: flex
+                                    flex-direction: column
+                                    align-items: center
+                                    justify-content: center
+
+                                    .model
+                                        width: clamp(150px,15.624vw,600px)
+                                        height: clamp(160px,16.6656vw,640px)
+
+                                    .model-heading
+                                        font-family: 'Montserrat'
+                                        font-style: normal
+                                        font-weight: 700
+                                        font-size: clamp(17.5px,1.8228vw,70px)
+                                        margin-top: $font40
+                                        color: $blue
+
+                        .specific-cases
+
+                            .specific-cases-heading
+                                font-size: $font48
+
+                            .cards-container
+                                width: 100%
+                                display: flex
+                                flex-direction: row
+                                align-items: center
+                                justify-content: space-between
+
+                                .card-container, .card-container-next
+                                    width: clamp(187px,19.47792vw,748px)
+                                    height: clamp(174.5px,18.17592vw,698px)
+                                    margin-top: 0px
+                                    cursor: pointer
+                                    margin-top: $pc64
+
+                                    .card-heading
+                                        font-size: clamp(14px,1.45824vw,56px)
+                                        margin-top: $pc32
+                                        margin-left: $pc32
+
+                                    .card-icon
+                                        width: clamp(50px,5.208vw,200px)
+                                        height: clamp(45.75px,4.76532vw,183px)
+                                        margin-top: $pc8
+                                        margin-left: $pc32
+
+                                    .card-paragraph
+                                        margin-top: clamp(23.75px,2.4738vw,95px)
+                                        font-size: $font19
+                                        margin-bottom: $pc32
+                                        margin-left: $pc32

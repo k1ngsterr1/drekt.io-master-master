@@ -7,6 +7,7 @@ import { Pagination, Navigation } from "swiper";
 
 // Assets
 import model from "../assets/orange.png";
+import modelPC from "../assets/model_orange_pc.png";
 import icon from "../assets/icon.svg";
 
 import Fade from "react-reveal/Fade";
@@ -88,36 +89,56 @@ const AboutScreen = () => {
                   </SwiperSlide>
                 </Swiper>
               </div>
+              <div className="regular-container">
+                <div className="model-container">
+                  <img className="model" src={modelPC}></img>
+                  <h5 className="model-heading">Backend</h5>
+                </div>
+                <div className="model-container">
+                  <img className="model" src={modelPC}></img>
+                  <h5 className="model-heading">Frontend</h5>
+                </div>
+                <div className="model-container">
+                  <img className="model" src={modelPC}></img>
+                  <h5 className="model-heading">Mobile</h5>
+                </div>
+                <div className="model-container">
+                  <img className="model" src={modelPC}></img>
+                  <h5 className="model-heading">UI/UX</h5>
+                </div>
+              </div>
             </div>
           </Fade>
           <div className="specific-cases">
             <Fade bottom>
               <h3 className="specific-cases-heading">For specific cases</h3>
             </Fade>
-            <Fade bottom>
-              <Card
-                heading="Microservices"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
-              ></Card>
-            </Fade>
-            <Fade bottom>
-              <NextCard
-                heading="Microservices"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
-              ></NextCard>
-            </Fade>
-            <Fade bottom>
-              <NextCard
-                heading="Microservices"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
-              ></NextCard>
-            </Fade>
-            <Fade bottom>
-              <NextCard
-                heading="Microservices"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
-              ></NextCard>
-            </Fade>
+            <div className="cards-container">
+              <Fade bottom>
+                <Card
+                  heading="Microservices"
+                  paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
+                ></Card>
+              </Fade>
+              <Fade bottom>
+                <NextCard
+                  heading="Microservices"
+                  paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
+                ></NextCard>
+              </Fade>
+              <Fade bottom>
+                <NextCard
+                  heading="Microservices"
+                  paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
+                ></NextCard>
+              </Fade>
+              <Fade bottom>
+                <NextCard
+                  heading="Microservices"
+                  paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum, felis vel interdum porttitor, enim leo"
+                ></NextCard>
+              </Fade>
+            </div>
           </div>
         </div>
       </div>

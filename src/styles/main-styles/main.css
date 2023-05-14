@@ -95,21 +95,29 @@
   }
   * body .main-screen .container .main-content .pc-models-container .model-container .house-line {
     position: absolute;
+    width: clamp(56px, 5.83296vw, 224px);
+    height: clamp(18px, 1.87488vw, 72px);
     left: clamp(341.5px, 35.57064vw, 1366px);
     top: clamp(348.5px, 36.29976vw, 1394px);
   }
   * body .main-screen .container .main-content .pc-models-container .model-container .regular-line {
     position: absolute;
+    width: clamp(56px, 5.83296vw, 224px);
+    height: clamp(18px, 1.87488vw, 72px);
     left: clamp(564px, 58.74624vw, 2256px);
     top: clamp(278.5px, 29.00856vw, 1114px);
   }
   * body .main-screen .container .main-content .pc-models-container .model-container .about-line {
     position: absolute;
+    width: clamp(56px, 5.83296vw, 224px);
+    height: clamp(18px, 1.87488vw, 72px);
     left: clamp(230.5px, 24.00888vw, 922px);
     top: clamp(254.5px, 26.50872vw, 1018px);
   }
   * body .main-screen .container .main-content .pc-models-container .model-container .family-line {
     position: absolute;
+    width: clamp(56px, 5.83296vw, 224px);
+    height: clamp(18px, 1.87488vw, 72px);
     left: clamp(655.5px, 68.27688vw, 2622px);
     top: clamp(364.5px, 37.96632vw, 1458px);
   }
