@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* body .container {
+  width: 89.7435897436%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: clamp(64px, 29.90592vw, 256px);
+}
+* body .container .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+* body .container .main-content .pc-models-container {
+  display: none;
+}
+* body .container .main-content .model {
+  margin-top: clamp(32px, 14.95296vw, 128px);
+  filter: drop-shadow(0px 57px 66px rgba(0, 0, 0, 0.15));
+}
+* body .container .main-content .model-text {
+  color: #75B9BE;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+
+@media screen and (min-width: 482px) {
+  * body .main-screen {
+    width: 100%;
+    height: auto;
+  }
+  * body .main-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .main-screen .container .main-content .heading {
+    width: clamp(815.5px, 84.94248vw, 3262px);
+    height: clamp(122px, 12.70752vw, 488px);
+  }
+  * body .main-screen .container .main-content .model {
+    display: none;
+  }
+  * body .main-screen .container .main-content .pc-models-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  * body .main-screen .container .main-content .pc-models-container .three-t {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    position: absolute;
+    left: clamp(649px, 67.59984vw, 2596px);
+    top: clamp(266.5px, 27.75864vw, 1066px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .text, * body .main-screen .container .main-content .pc-models-container .model-container .orange-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one-t {
+    position: absolute;
+    left: clamp(567px, 59.05872vw, 2268px);
+    top: clamp(354px, 36.87264vw, 1416px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .two-t {
+    position: absolute;
+    left: clamp(268.5px, 27.96696vw, 1074px);
+    top: clamp(338px, 35.20608vw, 1352px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .zero-t {
+    position: absolute;
+    left: clamp(316.5px, 32.96664vw, 1266px);
+    top: clamp(243px, 25.31088vw, 972px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .model-pc {
+    width: clamp(179px, 18.64464vw, 716px);
+    height: clamp(177px, 18.43632vw, 708px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .house-line {
+    position: absolute;
+    left: clamp(341.5px, 35.57064vw, 1366px);
+    top: clamp(348.5px, 36.29976vw, 1394px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .regular-line {
+    position: absolute;
+    left: clamp(564px, 58.74624vw, 2256px);
+    top: clamp(278.5px, 29.00856vw, 1114px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .about-line {
+    position: absolute;
+    left: clamp(230.5px, 24.00888vw, 922px);
+    top: clamp(254.5px, 26.50872vw, 1018px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .family-line {
+    position: absolute;
+    left: clamp(655.5px, 68.27688vw, 2622px);
+    top: clamp(364.5px, 37.96632vw, 1458px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .hex {
+    width: clamp(155.5px, 16.19688vw, 622px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .orange-point {
+    width: clamp(20.5px, 2.13528vw, 82px);
+    height: clamp(20.5px, 2.13528vw, 82px);
+    background-color: transparent;
+    display: flex;
+    transition: background-color 0.3s all ease;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF6A3A;
+    border-radius: 100px;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .orange-point .circle {
+    width: clamp(12px, 1.24992vw, 48px);
+    height: clamp(12px, 1.24992vw, 48px);
+    background-color: #FF6A3A;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .zero {
+    position: absolute;
+    left: clamp(290.5px, 30.25848vw, 1162px);
+    top: clamp(238.5px, 24.84216vw, 954px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one {
+    position: absolute;
+    left: clamp(633px, 65.93328vw, 2532px);
+    top: clamp(349.5px, 36.40392vw, 1398px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .two {
+    position: absolute;
+    left: clamp(320px, 33.3312vw, 1280px);
+    top: clamp(332.5px, 34.6332vw, 1330px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .three {
+    position: absolute;
+    left: clamp(624px, 64.99584vw, 2496px);
+    top: clamp(262.5px, 27.342vw, 1050px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .three:hover + .three-t {
+    transition: color 0.3s ease;
+    color: #FF6A3A;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .zero:hover .three-t {
+    transition: color 0.3s ease;
+    color: #FF6A3A;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one:hover + .text, * body .main-screen .container .main-content .pc-models-container .model-container .two:hover + .text, * body .main-screen .container .main-content .pc-models-container .model-container .zero:hover + .text {
+    transition: color 0.3s ease;
+    color: #FF6A3A;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .two:hover + .three-t {
+    transition: color 0.3s ease;
+    color: #FF6A3A;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one:hover, * body .main-screen .container .main-content .pc-models-container .model-container .two:hover, * body .main-screen .container .main-content .pc-models-container .model-container .three:hover, * body .main-screen .container .main-content .pc-models-container .model-container .zero:hover {
+    width: clamp(22px, 2.29152vw, 88px);
+    height: clamp(22px, 2.29152vw, 88px);
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one {
+    transition: 0.3s all;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .one:hover > .one-c {
+    transition: 0.3s all;
+    background-color: #FF480C;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .two {
+    transition: 0.3s all;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .two:hover > .two-c {
+    transition: 0.3s all;
+    background-color: #FF480C;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .three {
+    transition: 0.3s all;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .three:hover > .three-c {
+    transition: 0.3s all;
+    background-color: #FF480C;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .zero {
+    transition: 0.3s all;
+  }
+  * body .main-screen .container .main-content .pc-models-container .model-container .zero:hover > .zero-c {
+    transition: 0.3s all;
+    background-color: #FF480C;
+  }
+  * body .main-screen .container .main-content .model-text {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

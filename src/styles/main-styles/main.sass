@@ -1,0 +1,258 @@
+
+// Colors:
+
+$orange: #FF6A3A
+$blue: #75B9BE
+$black: #1E1E1E
+$white: #D9D9D9
+
+// Margins
+$mob8: clamp(4px,1.86912vw,16px)
+$mob16: clamp(8px,3.73824vw,32px)
+$mob32: clamp(16px,7.47648vw,64px)
+$mob64: clamp(32px,14.95296vw,128px)
+$mob128: clamp(64px,29.90592vw,256px)
+
+$pc8: clamp(4px,0.41664vw,16px)
+$pc16: clamp(8px,0.83328vw,32px)
+$pc32: clamp(16px,1.66656vw,64px)
+$pc64: clamp(32px,3.33312vw,128px)
+$pc128: clamp(64px,6.66624vw,256px)
+$pc256: clamp(128px,13.33248vw,512px)
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
+
+// Font sizes mobile:
+$fontmob16: clamp(8px,3.73824vw,32px)
+$fontmob17: clamp(8.5px,3.9718799999999996vw,34px)
+$fontmob18: clamp(9px,4.20552vw,36px)
+$fontmob21: clamp(10.5px,4.90644vw,42px)
+$fontmob23: clamp(11.5px,5.37372vw,46px)
+$fontmob24: clamp(12px,5.60736vw,48px)
+$fontmob28: clamp(14px,6.541919999999999vw,56px)
+$fontmob32: clamp(16px,1.66656vw,64px)
+
+// Font sizes PC:
+$font19: clamp(9.5px,0.9895200000000001vw,38px)
+$font21: clamp(10.5px,1.09368vw,42px)
+$font24: clamp(12px,1.24992vw,48px)
+$font25: clamp(12.5px,1.302vw,50px)
+$font40: clamp(20px,2.0832vw,80px)
+$font48: clamp(24px,2.49984vw,96px)
+$font64: clamp(32px,3.33312vw,128px)
+
+*
+    body
+
+        .container
+            width: 89.74358974358974%
+            height: auto
+            display: flex
+            margin: auto
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin-top: $mob128
+
+            .main-content
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+
+                .pc-models-container
+                    display: none
+
+                .model
+                    margin-top: $mob64
+                    filter: drop-shadow(0px 57px 66px rgba(0, 0, 0, 0.15))
+
+                .model-text
+                    color: $blue
+                    margin-top: $mob16
+
+@media screen  and (min-width: 482px)
+
+    *
+        body
+
+            .main-screen
+                width: 100%
+                height: auto
+
+                .container
+                    width: 86.45833333333333%
+                    margin-top: $pc128
+
+                    .main-content
+
+                        .heading
+                            width: clamp(815.5px,84.94248vw,3262px)
+                            height: clamp(122px,12.70752vw,488px)
+
+                        .model
+                            display: none
+
+                        .pc-models-container
+                            width: 100%
+                            display: flex
+                            align-items: center
+                            justify-content: space-between
+
+                            .three-t
+                                font-family: 'Montserrat'
+                                font-style: normal
+                                font-weight: 500
+                                transition: color 0.3s ease
+                                font-size: $pc16
+                                position: absolute
+                                left: clamp(649px,67.59984vw,2596px)
+                                top: clamp(266.5px,27.75864vw,1066px)
+
+                            .model-container
+                                display: flex
+                                flex-direction: column
+                                align-items: center
+                                justify-content: center
+                                margin-top: $pc128
+
+                                .text, .orange-text
+                                    font-family: 'Montserrat'
+                                    font-style: normal
+                                    font-weight: 500
+                                    transition: color 0.3s ease
+                                    font-size: $pc16
+
+                                .one-t
+                                    position: absolute
+                                    left: clamp(567px,59.05872vw,2268px)
+                                    top: clamp(354px,36.872640000000004vw,1416px)
+
+                                .two-t
+                                    position: absolute
+                                    left: clamp(268.5px,27.96696vw,1074px)
+                                    top: clamp(338px,35.20608vw,1352px)
+
+                                .zero-t
+                                    position: absolute
+                                    left: clamp(316.5px,32.96664vw,1266px)
+                                    top: clamp(243px,25.31088vw,972px)
+
+                                .model-pc
+                                    width: clamp(179px,18.64464vw,716px)
+                                    height: clamp(177px,18.436320000000002vw,708px)
+
+                                .house-line
+                                    position: absolute
+                                    left: clamp(341.5px,35.57064vw,1366px)
+                                    top: clamp(348.5px,36.29976vw,1394px)
+
+                                .regular-line
+                                    position: absolute
+                                    left: clamp(564px,58.74624vw,2256px)
+                                    top: clamp(278.5px,29.00856vw,1114px)
+
+                                .about-line
+                                    position: absolute
+                                    left: clamp(230.5px,24.00888vw,922px)
+                                    top: clamp(254.5px,26.50872vw,1018px)
+
+                                .family-line
+                                    position: absolute
+                                    left: clamp(655.5px,68.27688vw,2622px)
+                                    top: clamp(364.5px,37.96632vw,1458px)
+
+                                .hex
+                                    width: clamp(155.5px,16.19688vw,622px)
+
+                                .orange-point
+                                    width: clamp(20.5px,2.13528vw,82px)
+                                    height: clamp(20.5px,2.13528vw,82px)
+                                    background-color: transparent
+                                    display: flex
+                                    transition: background-color 0.3s all ease
+                                    align-items: center
+                                    justify-content: center
+                                    border: 2px solid $orange
+                                    border-radius: 100px
+
+                                    .circle
+                                        width: clamp(12px,1.24992vw,48px)
+                                        height: clamp(12px,1.24992vw,48px)
+                                        background-color: $orange
+                                        border-radius: 100px
+                                        cursor: pointer
+
+                                .zero
+                                    position: absolute
+                                    left: clamp(290.5px,30.258480000000002vw,1162px)
+                                    top: clamp(238.5px,24.84216vw,954px)
+
+                                .one
+                                    position: absolute
+                                    left: clamp(633px,65.93328vw,2532px)
+                                    top: clamp(349.5px,36.40392vw,1398px)
+
+                                .two
+                                    position: absolute
+                                    left: clamp(320px,33.3312vw,1280px)
+                                    top: clamp(332.5px,34.6332vw,1330px)
+
+                                .three
+                                    position: absolute
+                                    left: clamp(624px,64.99584vw,2496px)
+                                    top: clamp(262.5px,27.342000000000002vw,1050px)
+
+                                .three
+                                    &:hover + .three-t
+                                        transition: color 0.3s ease
+                                        color: $orange
+
+                                .zero
+                                    &:hover .three-t
+                                        transition: color 0.3s ease
+                                        color: $orange
+
+                                .one, .two,  .zero
+                                    &:hover + .text
+                                        transition: color 0.3s ease
+                                        color: $orange
+
+                                .two
+                                    &:hover + .three-t
+                                        transition: color 0.3s ease
+                                        color: $orange
+
+                                .one, .two, .three, .zero
+                                    &:hover
+                                        width: clamp(22px,2.2915200000000002vw,88px)
+                                        height: clamp(22px,2.2915200000000002vw,88px)
+
+                                .one
+                                    transition: 0.3s all
+                                    &:hover > .one-c
+                                        transition: 0.3s all
+                                        background-color: #FF480C
+
+                                .two
+                                    transition: 0.3s all
+                                    &:hover > .two-c
+                                        transition: 0.3s all
+                                        background-color: #FF480C
+
+                                .three
+                                    transition: 0.3s all
+                                    &:hover > .three-c
+                                        transition: 0.3s all
+                                        background-color: #FF480C
+
+                                .zero
+                                    transition: 0.3s all
+                                    &:hover > .zero-c
+                                        transition: 0.3s all
+                                        background-color: #FF480C
+
+                        .model-text
+                            display: none
