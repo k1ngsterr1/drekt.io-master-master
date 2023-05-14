@@ -58,4 +58,58 @@
 * body .container .guest-content .swiper-container .swiper-slide .swiper {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 482px) {
+  * body .guest-screen {
+    width: 100%;
+    height: auto;
+  }
+  * body .guest-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .guest-screen .container .guest-content .guests-heading {
+    text-transform: uppercase;
+    font-size: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .guest-screen .container .guest-content .swiper-container {
+    display: none;
+  }
+  * body .guest-screen .container .guest-content .guests-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .guest-screen .container .guest-content .guests-container .upper-cards {
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  * body .guest-screen .container .guest-content .guests-container .lower-cards {
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  * body .guest-screen .container .guest-content .guests-container .upper-cards, * body .guest-screen .container .guest-content .guests-container .lower-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  * body .guest-screen .container .guest-content .guests-container .upper-cards .card, * body .guest-screen .container .guest-content .guests-container .lower-cards .card {
+    width: clamp(200px, 20.832vw, 800px);
+    height: clamp(150px, 15.624vw, 600px);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 16px 42px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #FF6A3A;
+  }
+  * body .guest-screen .container .guest-content .guests-container .upper-cards .card .who, * body .guest-screen .container .guest-content .guests-container .lower-cards .card .who {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(24px, 2.49984vw, 96px);
+  }
 }/*# sourceMappingURL=guest.css.map */

@@ -56,6 +56,30 @@ const GuestsScreen = () => {
               </Swiper>
             </div>
           </Fade>
+          <div className="guests-container">
+            <div className="upper-cards">
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+            </div>
+            <div className="lower-cards">
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+              <div className="card">
+                <span className="who">Who?</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

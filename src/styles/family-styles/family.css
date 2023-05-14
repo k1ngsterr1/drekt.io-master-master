@@ -101,4 +101,48 @@
 * body .container .family-content .footer .email {
   margin-top: clamp(16px, 7.47648vw, 64px);
   margin-bottom: clamp(16px, 7.47648vw, 64px);
+}
+
+@media screen and (min-width: 482px) {
+  * body .family-screen {
+    width: 100%;
+    height: auto;
+  }
+  * body .family-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(85px, 8.8536vw, 340px);
+  }
+  * body .family-screen .container .family-heading {
+    font-size: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .family-screen .container .family-paragraph {
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+  }
+  * body .family-screen .container .form .email-input {
+    width: clamp(338px, 35.20608vw, 1352px);
+    height: clamp(27.5px, 2.8644vw, 110px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+  }
+  * body .family-screen .container .form .message {
+    width: clamp(338px, 35.20608vw, 1352px);
+    height: clamp(126px, 13.12416vw, 504px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10.5px, 1.09368vw, 42px);
+    border-radius: 15px;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .family-screen .container .form .form-button {
+    width: clamp(155.5px, 16.19688vw, 622px);
+    height: clamp(27.5px, 2.8644vw, 110px);
+    font-size: clamp(12px, 1.24992vw, 48px);
+    transition: 0.3s all ease;
+  }
+  * body .family-screen .container .form .form-button:hover {
+    background-color: #57AAB0;
+  }
 }/*# sourceMappingURL=family.css.map */
