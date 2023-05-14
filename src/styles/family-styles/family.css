@@ -118,6 +118,9 @@
   * body .family-screen .container .family-paragraph {
     font-size: clamp(10.5px, 1.09368vw, 42px);
   }
+  * body .family-screen .container .form {
+    width: 100%;
+  }
   * body .family-screen .container .form .email-input {
     width: clamp(338px, 35.20608vw, 1352px);
     height: clamp(27.5px, 2.8644vw, 110px);
@@ -144,5 +147,57 @@
   }
   * body .family-screen .container .form .form-button:hover {
     background-color: #57AAB0;
+  }
+  * body .family-screen .container .form .form-button {
+    display: none;
+  }
+  * body .family-screen .container .form .form-button-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  * body .family-screen .container .form .form-button-container .form-button-two {
+    width: clamp(155.5px, 16.19688vw, 622px);
+    height: clamp(27.5px, 2.8644vw, 110px);
+    border-radius: 100px;
+    background: #75B9BE;
+    cursor: pointer;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(12px, 1.24992vw, 48px);
+    transition: 0.3s ease;
+  }
+  * body .family-screen .container .form .form-button-container .form-button-two:hover {
+    background: #57AAB0;
+  }
+  * body .family-screen .container .form .form-button-container .social-media .facebook, * body .family-screen .container .form .form-button-container .social-media .telegram {
+    width: clamp(27px, 2.81232vw, 108px);
+    height: clamp(27px, 2.81232vw, 108px);
+    color: #FF6A3A;
+    cursor: pointer;
+    transition: 0.3s all;
+  }
+  * body .family-screen .container .form .form-button-container .social-media .facebook:hover, * body .family-screen .container .form .form-button-container .social-media .telegram:hover {
+    color: #FF480C;
+  }
+  * body .family-screen .container .form .form-button-container .social-media .telegram {
+    margin-left: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .family-screen .container .form .form-button-container .email {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .family-screen .container .logo {
+    font-size: clamp(24px, 2.49984vw, 96px);
+    margin-bottom: clamp(32px, 14.95296vw, 128px);
+  }
+  * body .family-screen .container .footer {
+    display: none;
   }
 }/*# sourceMappingURL=family.css.map */

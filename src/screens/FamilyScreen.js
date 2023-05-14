@@ -32,6 +32,14 @@ const FamilyScreen = () => {
                 className="message"
               ></textarea>
               <button className="form-button">Write to drekt</button>
+              <div className="form-button-container">
+                <div className="social-media">
+                  <FaFacebookMessenger className="facebook"></FaFacebookMessenger>
+                  <FaTelegram className="telegram"></FaTelegram>
+                </div>
+                <button className="form-button-two">Write to drekt</button>
+                <span className="email">help@help.com</span>
+              </div>
             </form>
           </Fade>
           <Fade bottom>

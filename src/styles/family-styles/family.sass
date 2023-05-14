@@ -168,6 +168,7 @@ $font64: clamp(32px,3.33312vw,128px)
                         font-size: $font21
 
                     .form
+                        width: 100%
 
                         .email-input
                             width: clamp(338px,35.20608vw,1352px)
@@ -194,3 +195,55 @@ $font64: clamp(32px,3.33312vw,128px)
                             transition: 0.3s all ease
                             &:hover
                                 background-color: #57AAB0
+
+                        .form-button
+                            display: none
+
+                        .form-button-container
+                            width: 100%
+                            display: flex
+                            align-items: center
+                            justify-content: space-between
+                            margin-top: $mob64
+
+                            .form-button-two
+                                width: clamp(155.5px,16.19688vw,622px)
+                                height: clamp(27.5px,2.8644000000000003vw,110px)
+                                border-radius: 100px
+                                background: #75B9BE
+                                cursor: pointer
+                                border: none
+                                font-family: 'Montserrat'
+                                font-style: normal
+                                font-weight: 700
+                                font-size: $font24
+                                transition: 0.3s ease
+                                &:hover
+                                    background: #57AAB0
+
+                            .social-media
+
+                                .facebook, .telegram
+                                    width: clamp(27px,2.81232vw,108px)
+                                    height: clamp(27px,2.81232vw,108px)
+                                    color: $orange
+                                    cursor: pointer
+                                    transition: 0.3s all
+                                    &:hover
+                                        color: #FF480C
+
+                                .telegram
+                                    margin-left: $pc32
+
+                            .email
+                                font-family: 'Open Sans'
+                                font-style: normal
+                                font-weight: 400
+                                font-size: $pc16
+
+                    .logo
+                        font-size: clamp(24px,2.49984vw,96px)
+                        margin-bottom: $mob64
+
+                    .footer
+                        display: none
