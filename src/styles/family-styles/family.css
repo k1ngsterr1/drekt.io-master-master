@@ -72,6 +72,9 @@
   width: clamp(155.5px, 72.66204vw, 622px);
   height: clamp(27.5px, 12.8502vw, 110px);
 }
+* body .container .family-content .form .form-button-container {
+  display: none;
+}
 * body .container .family-content .logo {
   font-family: "Montserrat";
   font-style: normal;
