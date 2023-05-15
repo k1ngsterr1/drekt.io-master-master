@@ -58,26 +58,38 @@ const GuestsScreen = () => {
           </Fade>
           <div className="guests-container">
             <div className="upper-cards">
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
             </div>
             <div className="lower-cards">
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
-              <div className="card">
-                <span className="who">Who?</span>
-              </div>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
+              <Fade bottom>
+                <div className="card">
+                  <span className="who">Who?</span>
+                </div>
+              </Fade>
             </div>
           </div>
         </div>

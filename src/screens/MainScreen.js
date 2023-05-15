@@ -31,33 +31,39 @@ const MainScreen = () => {
           </Fade>
           <div className="pc-models-container">
             <div className="model-container">
-              <img className="model-pc" src={ball}></img>
-              <img className="about-line" src={aboutLine}></img>
-              <div className="orange-point zero">
-                <span className="circle zero-c"></span>
-              </div>
-              <span className="text zero-t">About the family</span>
+              <Fade bottom>
+                <img className="model-pc" src={ball}></img>
+                <img className="about-line" src={aboutLine}></img>
+                <div className="orange-point zero">
+                  <span className="circle zero-c"></span>
+                </div>
+                <span className="text zero-t">About the family</span>
+              </Fade>
             </div>
             <div className="model-container">
-              <img className="model-pc hex" src={threeDPC}></img>
-              <img className="house-line" src={houseLine}></img>
-              <img className="regular-line" src={regularLine}></img>
-              <div className="orange-point three">
-                <span className="circle three-c"></span>
-              </div>
-              <span className="orange-text three-t">Regular guests</span>
-              <div className="orange-point two">
-                <span className="circle two-c"></span>
-              </div>
-              <span className="text two-t">House tour</span>
+              <Fade bottom>
+                <img className="model-pc hex" src={threeDPC}></img>
+                <img className="house-line" src={houseLine}></img>
+                <img className="regular-line" src={regularLine}></img>
+                <div className="orange-point three">
+                  <span className="circle three-c"></span>
+                </div>
+                <span className="orange-text three-t">Regular guests</span>
+                <div className="orange-point two">
+                  <span className="circle two-c"></span>
+                </div>
+                <span className="text two-t">House tour</span>
+              </Fade>
             </div>
             <div className="model-container">
-              <img className="model-pc" src={smoothBall}></img>
-              <img className="family-line" src={familyLine}></img>
-              <div className="orange-point one">
-                <span className="circle one-c"></span>
-              </div>
-              <span className="text one-t">Join the family</span>
+              <Fade bottom>
+                <img className="model-pc" src={smoothBall}></img>
+                <img className="family-line" src={familyLine}></img>
+                <div className="orange-point one">
+                  <span className="circle one-c"></span>
+                </div>
+                <span className="text one-t">Join the family</span>
+              </Fade>
             </div>
           </div>
           <Fade bottom>

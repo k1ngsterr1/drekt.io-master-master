@@ -17,6 +17,9 @@
   align-items: center;
   justify-content: center;
 }
+* body .container .guest-content .guests-container {
+  display: none;
+}
 * body .container .guest-content .guests-heading {
   color: #FF6A3A;
 }
