@@ -20,7 +20,7 @@ import Fade from "react-reveal/Fade";
 const MainScreen = () => {
   return (
     <div className="main-screen">
-      <div className="container">
+      <div className="m-container main-c">
         <main className="main-content">
           <Fade bottom>
             <img className="heading" src={heading}></img>

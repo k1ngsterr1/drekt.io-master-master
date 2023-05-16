@@ -106,7 +106,114 @@
   margin-bottom: clamp(16px, 7.47648vw, 64px);
 }
 
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 768px) {
+  body .container {
+    width: 89.7435897436%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(64px, 29.90592vw, 256px);
+  }
+  body .container .family-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container .family-content .family-heading {
+    color: #FF6A3A;
+  }
+  body .container .family-content .family-paragraph {
+    width: clamp(144.5px, 67.52196vw, 578px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: clamp(8px, 3.73824vw, 32px);
+    margin-top: clamp(8px, 3.73824vw, 32px);
+  }
+  body .container .family-content .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container .family-content .form .email-input {
+    border-radius: 100px;
+    outline: none;
+    border: 2px solid #FF6A3A;
+    padding-left: clamp(6.5px, 3.03732vw, 26px);
+    font-size: clamp(8px, 3.73824vw, 32px);
+    margin-top: clamp(32px, 14.95296vw, 128px);
+    width: clamp(173.5px, 81.07308vw, 694px);
+    height: clamp(24px, 11.21472vw, 96px);
+  }
+  body .container .family-content .form .message {
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #FF6A3A;
+    font-family: "Open Sans";
+    margin-top: clamp(16px, 7.47648vw, 64px);
+    font-style: normal;
+    padding-left: clamp(6.5px, 3.03732vw, 26px);
+    padding-top: clamp(6.5px, 3.03732vw, 26px);
+    font-weight: 400;
+    font-size: clamp(8px, 3.73824vw, 32px);
+    width: clamp(173px, 80.83944vw, 692px);
+    height: clamp(59.5px, 27.80316vw, 238px);
+  }
+  body .container .family-content .form .form-button {
+    background-color: #75B9BE;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(10.5px, 4.90644vw, 42px);
+    margin-top: clamp(16px, 7.47648vw, 64px);
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    width: clamp(155.5px, 72.66204vw, 622px);
+    height: clamp(27.5px, 12.8502vw, 110px);
+  }
+  body .container .family-content .form .form-button-container {
+    display: none;
+  }
+  body .container .family-content .logo {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(11.5px, 5.37372vw, 46px);
+    margin-top: clamp(16px, 7.47648vw, 64px);
+  }
+  body .container .family-content .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container .family-content .footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  body .container .family-content .footer .social-media .facebook, body .container .family-content .footer .social-media .telegram {
+    font-size: clamp(22.5px, 10.5138vw, 90px);
+    color: #FF6A3A;
+  }
+  body .container .family-content .footer .social-media .telegram {
+    margin-left: clamp(8px, 3.73824vw, 32px);
+  }
+  body .container .family-content .footer .email {
+    margin-top: clamp(16px, 7.47648vw, 64px);
+    margin-bottom: clamp(16px, 7.47648vw, 64px);
+  }
+}
+@media screen and (min-width: 1200px) {
   * body .family-screen {
     width: 100%;
     height: auto;

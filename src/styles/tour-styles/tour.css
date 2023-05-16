@@ -61,7 +61,439 @@
   display: none;
 }
 
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 768px) {
+  .container {
+    width: 89.7435897436%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  .container .tour-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .tour-content .tour-heading {
+    color: #FF6A3A;
+  }
+  .container .tour-content .tour-heading .tour-paragraph {
+    display: none;
+  }
+  .container .tour-content .tour-heading .rooms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .tour-content .tour-heading .rooms .line {
+    width: clamp(8px, 3.73824vw, 32px);
+    height: clamp(130px, 60.7464vw, 520px);
+    background-color: #75B9BE;
+    border-radius: 100px;
+    margin-top: clamp(16px, 7.47648vw, 64px);
+  }
+  .container .tour-content .tour-heading .rooms .room-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container .tour-content .tour-heading .rooms .room-description .room-name {
+    margin-top: clamp(16px, 7.47648vw, 64px);
+    color: #1E1E1E;
+  }
+  .container .tour-content .tour-heading .rooms .room-description .room-paragraph {
+    width: clamp(157.5px, 73.5966vw, 630px);
+    font-size: clamp(8.5px, 3.97188vw, 34px);
+    margin-top: clamp(8px, 3.73824vw, 32px);
+  }
+  .container .tour-content .tour-heading .rooms .room-description .room {
+    width: clamp(175px, 81.774vw, 700px);
+    height: clamp(175px, 81.774vw, 700px);
+    margin-top: clamp(10px, 4.6728vw, 40px);
+  }
+  .container .tour-content .tour-heading .rooms-computer {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  * body .house-screen {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  * body .house-screen {
+    width: 100%;
+    height: clamp(1300px, 203.125vw, 5200px);
+  }
+  * body .house-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .tour-heading {
+    font-size: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .tour-paragraph {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 1.24992vw, 48px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    display: flex !important;
+  }
+  * body .house-screen .container .tour-content .rooms {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms .line {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms-computer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .main-model {
+    width: clamp(182.5px, 19.0092vw, 730px);
+    height: clamp(200px, 20.832vw, 800px);
+    top: clamp(3000px, 312.48vw, 12000px);
+    left: clamp(389.5px, 40.57032vw, 1558px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: clamp(200px, 31.25vw, 800px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .line-blue {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .arrow-blue {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-left: clamp(-45px, -7.03125vw, -180px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #FF6A3A;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-left: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-right: clamp(210px, 32.8125vw, 840px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .line-orange {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .main-model {
+    width: clamp(180.5px, 18.80088vw, 722px);
+    height: clamp(200px, 20.832vw, 800px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .arrow-orange {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-right: clamp(-45px, -7.03125vw, -180px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    margin-right: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .span-two {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #75B9BE;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-right: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+}
+@media screen and (min-width: 1400px) {
+  * body .house-screen {
+    width: 100%;
+    height: clamp(1850px, 192.696vw, 7400px);
+  }
+  * body .house-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .tour-heading {
+    font-size: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .tour-paragraph {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 1.24992vw, 48px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    display: flex !important;
+  }
+  * body .house-screen .container .tour-content .rooms {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms .line {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms-computer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .main-model {
+    width: clamp(182.5px, 19.0092vw, 730px);
+    height: clamp(200px, 20.832vw, 800px);
+    top: clamp(3000px, 312.48vw, 12000px);
+    left: clamp(389.5px, 40.57032vw, 1558px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: clamp(240px, 33.3333333333vw, 960px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .line-blue {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .arrow-blue {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-left: clamp(-45px, -7.03125vw, -180px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #FF6A3A;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-left: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-right: clamp(230px, 31.9444444444vw, 920px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .line-orange {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .main-model {
+    width: clamp(180.5px, 18.80088vw, 722px);
+    height: clamp(200px, 20.832vw, 800px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .arrow-orange {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-right: clamp(-45px, -7.03125vw, -180px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    margin-right: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .span-two {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #75B9BE;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-right: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+}
+@media screen and (min-width: 1700px) {
   * body .house-screen {
     width: 100%;
     height: clamp(1850px, 192.696vw, 7400px);
@@ -174,6 +606,188 @@
     align-items: start;
     justify-content: start;
     margin-right: clamp(295px, 30.7272vw, 1180px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .line-orange {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .line-container .main-model {
+    width: clamp(180.5px, 18.80088vw, 722px);
+    height: clamp(200px, 20.832vw, 800px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .arrow-container .arrow-orange {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-right: clamp(-65px, -6.7704vw, -260px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    margin-right: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .span-two {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #75B9BE;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-right: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+}
+@media screen and (min-width: 2000px) {
+  * body .house-screen {
+    width: 100%;
+    height: clamp(1850px, 192.696vw, 7400px);
+  }
+  * body .house-screen .container {
+    width: 86.4583333333%;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .tour-heading {
+    font-size: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .tour-paragraph {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 1.24992vw, 48px);
+    margin-top: clamp(16px, 1.66656vw, 64px);
+    display: flex !important;
+  }
+  * body .house-screen .container .tour-content .rooms {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms .line {
+    display: none;
+  }
+  * body .house-screen .container .tour-content .rooms-computer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(64px, 6.66624vw, 256px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .main-model {
+    width: clamp(182.5px, 19.0092vw, 730px);
+    height: clamp(200px, 20.832vw, 800px);
+    top: clamp(3000px, 312.48vw, 12000px);
+    left: clamp(389.5px, 40.57032vw, 1558px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: clamp(325px, 33.852vw, 1300px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content {
+    display: flex;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container {
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .line-blue {
+    width: clamp(96.5px, 10.05144vw, 386px);
+    height: clamp(130px, 13.5408vw, 520px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .line-container .model {
+    width: clamp(72.5px, 7.5516vw, 290px);
+    height: clamp(80px, 8.3328vw, 320px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .arrow-container .arrow-blue {
+    height: clamp(12.5px, 1.302vw, 50px);
+    margin-left: clamp(-65px, -6.7704vw, -260px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container {
+    display: flex;
+    align-items: center;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(12.5px, 1.302vw, 50px);
+    color: #FF6A3A;
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .heading-container .step-heading {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(11.5px, 1.19784vw, 46px);
+    margin-left: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-one .step-one-content .text-container .step-paragraph {
+    width: clamp(253.5px, 26.40456vw, 1014px);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(9px, 0.93744vw, 36px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  * body .house-screen .container .tour-content .rooms-computer .step-two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-right: clamp(410px, 32.03125vw, 1640px);
   }
   * body .house-screen .container .tour-content .rooms-computer .step-two .step-two-content {
     display: flex;

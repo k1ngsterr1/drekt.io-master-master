@@ -151,7 +151,116 @@ $font64: clamp(32px,3.33312vw,128px)
                         margin-top: $mob32
                         margin-bottom: $mob32
 
-@media screen  and (min-width: 482px)
+@media screen  and (min-width: 768px)
+
+    body
+
+        .container
+            width: 89.74358974358974%
+            height: auto
+            display: flex
+            margin: auto
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin-top: $mob128
+
+            .family-content
+                width: 100%
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+
+                .family-heading
+                    color: $orange
+
+                .family-paragraph
+                    width: clamp(144.5px,67.52195999999999vw,578px)
+                    font-family: 'Open Sans'
+                    font-style: normal
+                    font-weight: 400
+                    text-align: center
+                    font-size: $fontmob16
+                    margin-top: $mob16
+
+                .form
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+
+                    .email-input
+                        border-radius: 100px
+                        outline: none
+                        border: 2px solid $orange
+                        padding-left: clamp(6.5px,3.03732vw,26px)
+                        font-size: $fontmob16
+                        margin-top: $mob64
+                        width: clamp(173.5px,81.07307999999999vw,694px)
+                        height: clamp(24px,11.21472vw,96px)
+
+                    .message
+                        border-radius: 7px
+                        outline: none
+                        border: 2px solid $orange
+                        font-family: 'Open Sans'
+                        margin-top: $mob32
+                        font-style: normal
+                        padding-left: clamp(6.5px,3.03732vw,26px)
+                        padding-top: clamp(6.5px,3.03732vw,26px)
+                        font-weight: 400
+                        font-size: $fontmob16
+                        width: clamp(173px,80.83944vw,692px)
+                        height: clamp(59.5px,27.80316vw,238px)
+
+                    .form-button
+                        background-color: $blue
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: $fontmob21
+                        margin-top: $mob32
+                        border-radius: 100px
+                        outline: none
+                        border: none
+                        width: clamp(155.5px,72.66203999999999vw,622px)
+                        height: clamp(27.5px,12.8502vw,110px)
+
+                    .form-button-container
+                        display: none
+
+                .logo
+                    font-family: 'Montserrat'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: $fontmob23
+                    margin-top: $mob32
+
+                .footer
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+
+                    .social-media
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        margin-top: $mob64
+
+                        .facebook, .telegram
+                            font-size: clamp(22.5px,10.5138vw,90px)
+                            color: $orange
+
+                        .telegram
+                            margin-left: $mob16
+
+                    .email
+                        margin-top: $mob32
+                        margin-bottom: $mob32
+
+@media screen  and (min-width: 1200px)
 
     *
         body

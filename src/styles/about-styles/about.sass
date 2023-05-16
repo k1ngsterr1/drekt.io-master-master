@@ -161,7 +161,30 @@ $font64: clamp(32px,3.33312vw,128px)
                 margin-top: clamp(10px,4.6728vw,40px)
                 color: $blue
 
-@media screen  and (min-width: 482px)
+@media screen  and (min-width: 768px)
+
+    .container
+        width: 89.74358974358974%
+        height: auto
+        display: flex
+        margin: auto
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin-top: $mob128
+
+        .about-content
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            .swiper-container
+                height: 466px !important
+                // border: 2px solid red !important
+
+@media screen and  (min-width: 1200px)
 
     *
         body

@@ -63,7 +63,71 @@
   margin-right: auto;
 }
 
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 768px) {
+  * body .container {
+    width: 89.7435897436%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(32px, 14.95296vw, 128px);
+  }
+  * body .container .guest-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .container .guest-content .guests-container {
+    display: none;
+  }
+  * body .container .guest-content .guests-heading {
+    color: #FF6A3A;
+  }
+  * body .container .guest-content .swiper-container {
+    width: 110%;
+    height: auto;
+    margin-top: clamp(16px, 7.47648vw, 64px);
+  }
+  * body .container .guest-content .swiper-container .card {
+    width: clamp(159px, 74.29752vw, 636px);
+    height: clamp(114px, 53.26992vw, 456px);
+    background-color: #FF6A3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: clamp(16px, 7.47648vw, 64px);
+  }
+  * body .container .guest-content .swiper-container .card .who {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(16px, 7.47648vw, 64px);
+    color: #1E1E1E;
+  }
+  * body .container .guest-content .swiper-container .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .guest-content .swiper-container .swiper-slide .swiper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  * body .container .guest-content .swiper-container .swiper-slide .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
   * body .guest-screen {
     width: 100%;
     height: auto;

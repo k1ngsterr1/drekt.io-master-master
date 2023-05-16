@@ -107,7 +107,73 @@ $font64: clamp(32px,3.33312vw,128px)
                             margin-left: auto
                             margin-right: auto
 
-@media screen  and (min-width: 482px)
+@media screen  and (min-width: 768px)
+
+    *
+        body
+
+            .container
+                width: 89.74358974358974%
+                height: auto
+                display: flex
+                margin: auto
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                margin-top: $mob64
+
+                .guest-content
+                    width: 100%
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+
+                    .guests-container
+                        display: none
+
+                    .guests-heading
+                        color: $orange
+
+                    .swiper-container
+                        width: 110%
+                        height: auto
+                        margin-top: $mob32
+
+                        .card
+                            width: clamp(159px,74.29751999999999vw,636px)
+                            height: clamp(114px,53.26992vw,456px)
+                            background-color: $orange
+                            display: flex
+                            justify-content: center
+                            align-items: center
+                            border-radius: 20px
+                            margin-bottom: $mob32
+
+                            .who
+                                font-family: 'Montserrat'
+                                font-style: normal
+                                font-weight: 800
+                                font-size: $mob32
+                                color: $black
+
+                        .swiper-slide
+                            text-align: center
+                            display: flex
+                            justify-content: center
+                            align-items: center
+
+                            .swiper img
+                                display: block
+                                width: 100%
+                                height: 100%
+                                object-fit: cover
+
+                            .swiper
+                                margin-left: auto
+                                margin-right: auto
+
+@media screen and  (min-width: 1200px)
 
     *
         body

@@ -106,7 +106,266 @@ $font64: clamp(32px,3.33312vw,128px)
                 .rooms-computer
                     display: none
 
-@media screen  and (min-width: 482px)
+@media screen  and (min-width: 768px)
+
+    .container
+        width: 89.74358974358974%
+        height: auto
+        display: flex
+        margin: auto
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin-top: $mob64
+
+        .tour-content
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            .tour-heading
+                color: $orange
+
+                .tour-paragraph
+                    display: none
+
+                .rooms
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+
+                    .line
+                        width: $mob16
+                        height: clamp(130px,60.746399999999994vw,520px)
+                        background-color: $blue
+                        border-radius: 100px
+                        margin-top: $mob32
+
+                    .room-description
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+                        justify-content: center
+                        text-align: center
+
+                        .room-name
+                            margin-top: $mob32
+                            color: $black
+
+                        .room-paragraph
+                            width: clamp(157.5px,73.5966vw,630px)
+                            font-size: $fontmob17
+                            margin-top: $mob16
+
+                        .room
+                            width: clamp(175px,81.774vw,700px)
+                            height: clamp(175px,81.774vw,700px)
+                            margin-top: clamp(10px,4.6728vw,40px)
+
+                .rooms-computer
+                    display: none
+
+@media screen and (min-width: 992px)
+
+    *
+        body
+
+            .house-screen
+                width: 100%
+                height: auto
+
+@media screen and  (min-width: 1200px)
+
+    *
+        body
+
+            .house-screen
+                width: 100%
+                height: clamp(1300px,203.125vw,5200px)
+
+                .container
+                    width: 86.45833333333333%
+                    margin-top: $pc128
+
+                    .tour-content
+
+                        .tour-heading
+                            font-size: $font64
+
+                        .tour-paragraph
+                            font-family: 'Open Sans'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: $font24
+                            margin-top: $pc32
+                            display: flex !important
+
+                        .rooms
+                            display: none
+
+                            .line
+                                display: none
+
+                        .rooms-computer
+                            width: 100%
+                            display: flex
+                            flex-direction: column
+                            align-items: center
+                            justify-content: center
+                            margin-top: $pc128
+
+                            .main-model
+                                width: clamp(182.5px,19.0092vw,730px)
+                                height: clamp(200px,20.832vw,800px)
+                                // position: absolute
+                                top: clamp(3000px,312.48vw,12000px)
+                                left: clamp(389.5px,40.57032vw,1558px)
+
+                            .step-one
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-left: clamp(200px,31.25vw,800px)
+
+                                .step-one-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-blue
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                        .arrow-blue
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-left: clamp(-45px,-7.03125vw,-180px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        margin-left: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $orange
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-left: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+                            .step-two
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-right: clamp(210px,32.8125vw,840px)
+
+                                .step-two-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-orange
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                            .main-model
+                                                width: clamp(180.5px,18.80088vw,722px)
+                                                height: clamp(200px,20.832vw,800px)
+                                                margin-top: $pc32
+
+                                        .arrow-orange
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-right: clamp(-45px,-7.03125vw,-180px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        align-items: end
+                                        text-align: right
+                                        margin-right: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span-two
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $blue
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-right: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+@media screen and  (min-width: 1400px)
 
     *
         body
@@ -114,7 +373,194 @@ $font64: clamp(32px,3.33312vw,128px)
             .house-screen
                 width: 100%
                 height: clamp(1850px,192.696vw,7400px)
-                // border: 2px solid red
+
+                .container
+                    width: 86.45833333333333%
+                    margin-top: $pc128
+
+                    .tour-content
+
+                        .tour-heading
+                            font-size: $font64
+
+                        .tour-paragraph
+                            font-family: 'Open Sans'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: $font24
+                            margin-top: $pc32
+                            display: flex !important
+
+                        .rooms
+                            display: none
+
+                            .line
+                                display: none
+
+                        .rooms-computer
+                            width: 100%
+                            display: flex
+                            flex-direction: column
+                            align-items: center
+                            justify-content: center
+                            margin-top: $pc128
+
+                            .main-model
+                                width: clamp(182.5px,19.0092vw,730px)
+                                height: clamp(200px,20.832vw,800px)
+                                // position: absolute
+                                top: clamp(3000px,312.48vw,12000px)
+                                left: clamp(389.5px,40.57032vw,1558px)
+
+                            .step-one
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-left: clamp(240px,33.333333333333336vw,960px)
+
+                                .step-one-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-blue
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                        .arrow-blue
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-left: clamp(-45px,-7.03125vw,-180px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        margin-left: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $orange
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-left: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+                            .step-two
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-right: clamp(230px,31.944444444444443vw,920px)
+
+                                .step-two-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-orange
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                            .main-model
+                                                width: clamp(180.5px,18.80088vw,722px)
+                                                height: clamp(200px,20.832vw,800px)
+                                                margin-top: $pc32
+
+                                        .arrow-orange
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-right: clamp(-45px,-7.03125vw,-180px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        align-items: end
+                                        text-align: right
+                                        margin-right: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span-two
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $blue
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-right: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+@media screen and (min-width: 1700px)
+
+    *
+        body
+
+            .house-screen
+                width: 100%
+                height: clamp(1850px,192.696vw,7400px)
 
                 .container
                     width: 86.45833333333333%
@@ -227,6 +673,194 @@ $font64: clamp(32px,3.33312vw,128px)
                                 align-items: start
                                 justify-content: start
                                 margin-right: clamp(295px,30.7272vw,1180px)
+
+                                .step-two-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-orange
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                            .main-model
+                                                width: clamp(180.5px,18.80088vw,722px)
+                                                height: clamp(200px,20.832vw,800px)
+                                                margin-top: $pc32
+
+                                        .arrow-orange
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-right: clamp(-65px,-6.7704vw,-260px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        align-items: end
+                                        text-align: right
+                                        margin-right: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span-two
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $blue
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-right: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+@media screen and (min-width: 2000px)
+
+    *
+        body
+
+            .house-screen
+                width: 100%
+                height: clamp(1850px,192.696vw,7400px)
+
+                .container
+                    width: 86.45833333333333%
+                    margin-top: $pc128
+
+                    .tour-content
+
+                        .tour-heading
+                            font-size: $font64
+
+                        .tour-paragraph
+                            font-family: 'Open Sans'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: $font24
+                            margin-top: $pc32
+                            display: flex !important
+
+                        .rooms
+                            display: none
+
+                            .line
+                                display: none
+
+                        .rooms-computer
+                            width: 100%
+                            display: flex
+                            flex-direction: column
+                            align-items: center
+                            justify-content: center
+                            margin-top: $pc128
+
+                            .main-model
+                                width: clamp(182.5px,19.0092vw,730px)
+                                height: clamp(200px,20.832vw,800px)
+                                // position: absolute
+                                top: clamp(3000px,312.48vw,12000px)
+                                left: clamp(389.5px,40.57032vw,1558px)
+
+                            .step-one
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-left: clamp(325px,33.852000000000004vw,1300px)
+
+                                .step-one-content
+                                    display: flex
+
+                                    .arrow-container
+                                        width: auto
+                                        display: flex
+                                        align-items: start
+                                        justify-content: start
+
+                                        .line-container
+                                            display: flex
+                                            flex-direction: column
+                                            align-items: center
+                                            justify-content: center
+
+                                            .line-blue
+                                                width: clamp(96.5px,10.05144vw,386px)
+                                                height: clamp(130px,13.5408vw,520px)
+
+                                            .model
+                                                width: clamp(72.5px,7.5516000000000005vw,290px)
+                                                height: clamp(80px,8.3328vw,320px)
+                                                margin-top: $pc64
+                                                margin-bottom: $pc64
+
+                                        .arrow-blue
+                                            height: clamp(12.5px,1.302vw,50px)
+                                            margin-left: clamp(-65px,-6.7704vw,-260px)
+
+                                    .text-container
+                                        display: flex
+                                        flex-direction: column
+                                        margin-left: $pc16
+
+                                        .heading-container
+                                            display: flex
+                                            align-items: center
+
+                                            .span
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 800
+                                                font-size: clamp(12.5px,1.302vw,50px)
+                                                color: $orange
+
+                                            .step-heading
+                                                font-family: 'Montserrat'
+                                                font-style: normal
+                                                font-weight: 600
+                                                font-size: clamp(11.5px,1.19784vw,46px)
+                                                margin-left: $pc8
+
+                                        .step-paragraph
+                                            width: clamp(253.5px,26.40456vw,1014px)
+                                            font-family: 'Open Sans'
+                                            font-style: normal
+                                            font-weight: 400
+                                            font-size: clamp(9px,0.93744vw,36px)
+                                            margin-top: $pc8
+
+                            .step-two
+                                display: flex
+                                flex-direction: column
+                                align-items: start
+                                justify-content: start
+                                margin-right: clamp(410px,32.03125vw,1640px)
 
                                 .step-two-content
                                     display: flex
