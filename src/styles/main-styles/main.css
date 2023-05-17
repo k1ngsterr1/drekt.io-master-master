@@ -27,6 +27,24 @@
   color: #75B9BE;
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
+* body .phone-link {
+  width: clamp(32px, 14.95296vw, 128px);
+  height: clamp(32px, 14.95296vw, 128px);
+  border-radius: 100px;
+  position: fixed;
+  background-color: #FF6A3A;
+  right: clamp(16px, 1.6666666667vw, 64px);
+  bottom: clamp(16px, 1.6666666667vw, 64px);
+  transition: 0.3s;
+  z-index: 100;
+}
+* body .phone-link:hover {
+  background-color: #FF480C;
+}
+* body .phone-link .fill-arrow {
+  font-size: clamp(18.5px, 8.4541062802vw, 70px);
+  color: white;
+}
 
 @media screen and (min-width: 768px) {
   * body .m-container {
@@ -61,6 +79,24 @@
     color: #75B9BE;
     margin-top: clamp(24px, 5.1557465091vw, 96px);
     font-size: clamp(33.5px, 7.1965628357vw, 134px);
+  }
+  * body .phone-link {
+    width: clamp(45px, 10.1237345332vw, 180px);
+    height: clamp(45px, 10.1237345332vw, 180px);
+    border-radius: 100px;
+    position: fixed;
+    background-color: #FF6A3A;
+    right: clamp(16px, 1.6666666667vw, 64px);
+    bottom: clamp(16px, 1.6666666667vw, 64px);
+    transition: 0.3s;
+    z-index: 100;
+  }
+  * body .phone-link:hover {
+    background-color: #FF480C;
+  }
+  * body .phone-link .fill-arrow {
+    font-size: clamp(20px, 4.4994375703vw, 80px);
+    color: white;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -247,5 +283,23 @@
   }
   * body .main-screen .m-container .main-content .model-text {
     display: none;
+  }
+  * body .phone-link {
+    width: clamp(32px, 3.33312vw, 128px);
+    height: clamp(32px, 3.33312vw, 128px);
+    border-radius: 100px;
+    position: fixed;
+    background-color: #FF6A3A;
+    right: clamp(16px, 1.6666666667vw, 64px);
+    bottom: clamp(16px, 1.6666666667vw, 64px);
+    transition: 0.3s;
+    z-index: 100;
+  }
+  * body .phone-link:hover {
+    background-color: #FF480C;
+  }
+  * body .phone-link .fill-arrow {
+    font-size: clamp(20px, 2.0833333333vw, 80px);
+    color: white;
   }
 }/*# sourceMappingURL=main.css.map */

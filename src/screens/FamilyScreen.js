@@ -7,9 +7,13 @@ import { FaTelegram } from "react-icons/fa";
 
 import Fade from "react-reveal/Fade";
 
+import { useNavigate } from "react-router-dom";
+
 const FamilyScreen = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="family-screen">
+    <div className="family-screen" id="family">
       <div className="container">
         <div className="family-content">
           <Fade bottom>
@@ -43,7 +47,12 @@ const FamilyScreen = () => {
             </form>
           </Fade>
           <Fade bottom>
-            <p className="logo">Logo</p>
+            <p
+              className="logo"
+              onClick={() => (window.location.href = "#main")}
+            >
+              Logo
+            </p>
           </Fade>
           <Fade bottom>
             <footer className="footer">

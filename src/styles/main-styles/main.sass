@@ -73,6 +73,23 @@ $font64: clamp(32px,3.33312vw,128px)
                     color: $blue
                     margin-top: $mob16
 
+        .phone-link
+            width: $mob64
+            height: $mob64
+            border-radius: 100px
+            position: fixed
+            background-color: $orange
+            right: clamp(16px,1.6666666666666667vw,64px)
+            bottom: clamp(16px,1.6666666666666667vw,64px)
+            transition: 0.3s
+            z-index: 100
+            &:hover
+                background-color: #FF480C
+
+            .fill-arrow
+                font-size: clamp(18.5px,8.454106280193237vw,70px)
+                color: #ffff
+
 @media screen  and (min-width: 768px)
 
     *
@@ -110,6 +127,23 @@ $font64: clamp(32px,3.33312vw,128px)
                         color: $blue
                         margin-top: clamp(24px,5.155746509129968vw,96px)
                         font-size: clamp(33.5px,7.19656283566058vw,134px)
+
+            .phone-link
+                width: clamp(45px,10.123734533183352vw,180px)
+                height: clamp(45px,10.123734533183352vw,180px)
+                border-radius: 100px
+                position: fixed
+                background-color: $orange
+                right: clamp(16px,1.6666666666666667vw,64px)
+                bottom: clamp(16px,1.6666666666666667vw,64px)
+                transition: 0.3s
+                z-index: 100
+                &:hover
+                    background-color: #FF480C
+
+                .fill-arrow
+                    font-size: clamp(20px, 4.499437570303712vw ,80px)
+                    color: #ffff
 
 @media screen and  (min-width: 1200px)
 
@@ -302,3 +336,20 @@ $font64: clamp(32px,3.33312vw,128px)
 
                         .model-text
                             display: none
+
+            .phone-link
+                width: $pc64
+                height: $pc64
+                border-radius: 100px
+                position: fixed
+                background-color: $orange
+                right: clamp(16px,1.6666666666666667vw,64px)
+                bottom: clamp(16px,1.6666666666666667vw,64px)
+                transition: 0.3s
+                z-index: 100
+                &:hover
+                    background-color: #FF480C
+
+                .fill-arrow
+                    font-size: clamp(20px,2.0833333333333335vw,80px)
+                    color: #ffff

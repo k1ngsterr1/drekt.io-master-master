@@ -15,11 +15,18 @@ import smoothBall from "../assets/smooth_ball.png";
 
 import styles from "../styles/main-styles/main.css";
 
+import { useNavigate } from "react-router-dom";
+
 import Fade from "react-reveal/Fade";
+import Bounce from "react-reveal/Bounce";
+
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const MainScreen = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="main-screen">
+    <div className="main-screen" id="main">
       <div className="m-container main-c">
         <main className="main-content">
           <Fade bottom>
@@ -34,7 +41,10 @@ const MainScreen = () => {
               <Fade bottom>
                 <img className="model-pc" src={ball}></img>
                 <img className="about-line" src={aboutLine}></img>
-                <div className="orange-point zero">
+                <div
+                  className="orange-point zero"
+                  onClick={() => (window.location.href = "#about")}
+                >
                   <span className="circle zero-c"></span>
                 </div>
                 <span className="text zero-t">About the family</span>
@@ -45,11 +55,17 @@ const MainScreen = () => {
                 <img className="model-pc hex" src={threeDPC}></img>
                 <img className="house-line" src={houseLine}></img>
                 <img className="regular-line" src={regularLine}></img>
-                <div className="orange-point three">
+                <div
+                  className="orange-point three"
+                  onClick={() => (window.location.href = "#guest")}
+                >
                   <span className="circle three-c"></span>
                 </div>
                 <span className="orange-text three-t">Regular guests</span>
-                <div className="orange-point two">
+                <div
+                  className="orange-point two"
+                  onClick={() => (window.location.href = "#house")}
+                >
                   <span className="circle two-c"></span>
                 </div>
                 <span className="text two-t">House tour</span>
@@ -59,7 +75,10 @@ const MainScreen = () => {
               <Fade bottom>
                 <img className="model-pc" src={smoothBall}></img>
                 <img className="family-line" src={familyLine}></img>
-                <div className="orange-point one">
+                <div
+                  className="orange-point one"
+                  onClick={() => (window.location.href = "#family")}
+                >
                   <span className="circle one-c"></span>
                 </div>
                 <span className="text one-t">Join the family</span>
@@ -71,6 +90,14 @@ const MainScreen = () => {
           </Fade>
         </main>
       </div>
+      <Bounce delay={5000}>
+        <a
+          className="phone-link"
+          onClick={() => (window.location.href = "#main")}
+        >
+          <BsFillArrowUpCircleFill className="fill-arrow"></BsFillArrowUpCircleFill>
+        </a>
+      </Bounce>
     </div>
   );
 };

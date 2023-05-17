@@ -34,7 +34,7 @@ const AboutScreen = () => {
   }
 
   return (
-    <div className="about-screen">
+    <div className="about-screen" id="about">
       <div className="container">
         <div className="about-content">
           <Fade bottom>

@@ -23,7 +23,7 @@ import Fade from "react-reveal/Fade";
 
 const HouseScreen = () => {
   return (
-    <div className="house-screen">
+    <div className="house-screen" id="house">
       <div className="container">
         <div className="tour-content">
           <Fade bottom>

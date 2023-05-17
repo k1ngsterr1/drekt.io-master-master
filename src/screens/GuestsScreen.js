@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 
 const GuestsScreen = () => {
   return (
-    <div className="guest-screen">
+    <div className="guest-screen" id="guest">
       <div className="container">
         <div className="guest-content">
           <Fade bottom>
