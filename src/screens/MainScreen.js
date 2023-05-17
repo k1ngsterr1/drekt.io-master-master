@@ -21,6 +21,7 @@ import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import astronaut from "../assets/astronaut.png";
 
 const MainScreen = () => {
   const navigate = useNavigate();
@@ -36,10 +37,13 @@ const MainScreen = () => {
           <Fade bottom>
             <img className="model" src={threeD}></img>
           </Fade>
+          <button className="rekt-button">Let's Rekt</button>
           <div className="pc-models-container">
             <div className="model-container">
               <Fade bottom>
                 <img className="model-pc" src={ball}></img>
+              </Fade>
+              <Fade bottom delay={1000}>
                 <img className="about-line" src={aboutLine}></img>
                 <div
                   className="orange-point zero"
@@ -53,6 +57,8 @@ const MainScreen = () => {
             <div className="model-container">
               <Fade bottom>
                 <img className="model-pc hex" src={threeDPC}></img>
+              </Fade>
+              <Fade bottom delay={1000}>
                 <img className="house-line" src={houseLine}></img>
                 <img className="regular-line" src={regularLine}></img>
                 <div
@@ -74,6 +80,8 @@ const MainScreen = () => {
             <div className="model-container">
               <Fade bottom>
                 <img className="model-pc" src={smoothBall}></img>
+              </Fade>
+              <Fade bottom delay={1000}>
                 <img className="family-line" src={familyLine}></img>
                 <div
                   className="orange-point one"
@@ -85,18 +93,15 @@ const MainScreen = () => {
               </Fade>
             </div>
           </div>
-          <Fade bottom>
-            <h3 className="model-text">DREKT.IO</h3>
-          </Fade>
+          <Fade bottom></Fade>
         </main>
       </div>
       <Bounce delay={5000}>
-        <a
-          className="phone-link"
+        <img
+          className="astronaut"
+          src={astronaut}
           onClick={() => (window.location.href = "#main")}
-        >
-          <BsFillArrowUpCircleFill className="fill-arrow"></BsFillArrowUpCircleFill>
-        </a>
+        ></img>
       </Bounce>
     </div>
   );

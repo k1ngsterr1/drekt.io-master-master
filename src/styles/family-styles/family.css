@@ -36,7 +36,6 @@
   justify-content: center;
 }
 * body .container .family-content .form .email-input {
-  border-radius: 100px;
   outline: none;
   border: 2px solid #FF6A3A;
   padding-left: clamp(6.5px, 3.03732vw, 26px);
@@ -63,6 +62,7 @@
   background-color: #75B9BE;
   font-family: "Montserrat";
   font-style: normal;
+  color: white !important;
   font-weight: 700;
   font-size: clamp(10.5px, 4.90644vw, 42px);
   margin-top: clamp(16px, 7.47648vw, 64px);
@@ -143,7 +143,6 @@
     justify-content: center;
   }
   body .container .family-content .form .email-input {
-    border-radius: 100px;
     outline: none;
     border: 2px solid #FF6A3A;
     padding-left: clamp(6.5px, 3.03732vw, 26px);
@@ -168,6 +167,7 @@
   }
   body .container .family-content .form .form-button {
     background-color: #75B9BE;
+    color: white !important;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -255,6 +255,7 @@
     height: clamp(27.5px, 2.8644vw, 110px);
     font-size: clamp(12px, 1.24992vw, 48px);
     transition: 0.3s all ease;
+    color: white !important;
   }
   * body .family-screen .container .form .form-button:hover {
     background-color: #57AAB0;
@@ -268,12 +269,14 @@
     align-items: center;
     justify-content: space-between;
     margin-top: clamp(32px, 14.95296vw, 128px);
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
   }
   * body .family-screen .container .form .form-button-container .form-button-two {
     width: clamp(155.5px, 16.19688vw, 622px);
     height: clamp(27.5px, 2.8644vw, 110px);
     border-radius: 100px;
     background: #75B9BE;
+    color: white !important;
     cursor: pointer;
     border: none;
     font-family: "Montserrat";

@@ -46,14 +46,7 @@ const FamilyScreen = () => {
               </div>
             </form>
           </Fade>
-          <Fade bottom>
-            <p
-              className="logo"
-              onClick={() => (window.location.href = "#main")}
-            >
-              Logo
-            </p>
-          </Fade>
+          <Fade bottom></Fade>
           <Fade bottom>
             <footer className="footer">
               <div className="social-media">

@@ -8,13 +8,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: clamp(64px, 29.90592vw, 256px);
+  margin-top: clamp(32px, 14.95296vw, 128px);
 }
 * body .m-container .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+* body .m-container .main-content .heading {
+  width: clamp(192.5px, 89.9514vw, 770px);
 }
 * body .m-container .main-content .pc-models-container {
   display: none;
@@ -27,21 +30,35 @@
   color: #75B9BE;
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-* body .phone-link {
-  width: clamp(32px, 14.95296vw, 128px);
-  height: clamp(32px, 14.95296vw, 128px);
+* body .m-container .main-content .rekt-button {
+  background-color: #75B9BE;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #1E1E1E;
+  font-weight: 700;
+  font-size: clamp(10.5px, 4.90644vw, 42px);
+  margin-top: clamp(32px, 14.95296vw, 128px);
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  width: clamp(155.5px, 72.66204vw, 622px);
+  height: clamp(27.5px, 12.8502vw, 110px);
+  transition: 0.3s all;
+}
+* body .m-container .main-content .rekt-button:hover {
+  background-color: #65B1B7;
+}
+* body .astronaut {
+  width: clamp(35px, 16.3548vw, 140px);
+  height: clamp(50px, 23.364vw, 200px);
   border-radius: 100px;
   position: fixed;
-  background-color: #FF6A3A;
   right: clamp(16px, 1.6666666667vw, 64px);
   bottom: clamp(16px, 1.6666666667vw, 64px);
   transition: 0.3s;
   z-index: 100;
 }
-* body .phone-link:hover {
-  background-color: #FF480C;
-}
-* body .phone-link .fill-arrow {
+* body .astronaut .fill-arrow {
   font-size: clamp(18.5px, 8.4541062802vw, 70px);
   color: white;
 }
@@ -106,7 +123,10 @@
   }
   * body .main-screen .m-container {
     width: 86.4583333333%;
-    margin-top: clamp(64px, 6.66624vw, 256px);
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  * body .main-screen .m-container .main-content .rekt-button {
+    display: none;
   }
   * body .main-screen .m-container .main-content .heading {
     width: clamp(815.5px, 84.94248vw, 3262px);
@@ -129,7 +149,7 @@
     font-size: clamp(8px, 0.83328vw, 32px);
     position: absolute;
     left: clamp(649px, 67.59984vw, 2596px);
-    top: clamp(266.5px, 27.75864vw, 1066px);
+    top: clamp(240px, 24.9984vw, 960px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container {
     display: flex;
@@ -148,17 +168,17 @@
   * body .main-screen .m-container .main-content .pc-models-container .model-container .one-t {
     position: absolute;
     left: clamp(567px, 59.05872vw, 2268px);
-    top: clamp(354px, 36.87264vw, 1416px);
+    top: clamp(340px, 35.4144vw, 1360px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .two-t {
     position: absolute;
-    left: clamp(268.5px, 27.96696vw, 1074px);
-    top: clamp(338px, 35.20608vw, 1352px);
+    left: clamp(267px, 27.81072vw, 1068px);
+    top: clamp(315px, 32.8104vw, 1260px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .zero-t {
     position: absolute;
-    left: clamp(316.5px, 32.96664vw, 1266px);
-    top: clamp(243px, 25.31088vw, 972px);
+    left: clamp(327.5px, 34.1124vw, 1310px);
+    top: clamp(232.5px, 24.2172vw, 930px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .model-pc {
     width: clamp(179px, 18.64464vw, 716px);
@@ -168,29 +188,29 @@
     position: absolute;
     width: clamp(56px, 5.83296vw, 224px);
     height: clamp(18px, 1.87488vw, 72px);
-    left: clamp(341.5px, 35.57064vw, 1366px);
-    top: clamp(348.5px, 36.29976vw, 1394px);
+    left: clamp(340px, 35.4166666667vw, 1360px);
+    top: clamp(327.5px, 34.1124vw, 1310px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .regular-line {
     position: absolute;
     width: clamp(56px, 5.83296vw, 224px);
     height: clamp(18px, 1.87488vw, 72px);
     left: clamp(564px, 58.74624vw, 2256px);
-    top: clamp(278.5px, 29.00856vw, 1114px);
+    top: clamp(250px, 26.04vw, 1000px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .about-line {
     position: absolute;
     width: clamp(56px, 5.83296vw, 224px);
     height: clamp(18px, 1.87488vw, 72px);
-    left: clamp(230.5px, 24.00888vw, 922px);
-    top: clamp(254.5px, 26.50872vw, 1018px);
+    left: clamp(240px, 24.9984vw, 960px);
+    top: clamp(240px, 24.9984vw, 960px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .family-line {
     position: absolute;
     width: clamp(56px, 5.83296vw, 224px);
     height: clamp(18px, 1.87488vw, 72px);
-    left: clamp(655.5px, 68.27688vw, 2622px);
-    top: clamp(364.5px, 37.96632vw, 1458px);
+    left: clamp(660px, 68.7456vw, 2640px);
+    top: clamp(347.5px, 36.1956vw, 1390px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .hex {
     width: clamp(155.5px, 16.19688vw, 622px);
@@ -215,23 +235,23 @@
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .zero {
     position: absolute;
-    left: clamp(290.5px, 30.25848vw, 1162px);
-    top: clamp(238.5px, 24.84216vw, 954px);
+    left: clamp(300px, 31.248vw, 1200px);
+    top: clamp(227.5px, 23.6964vw, 910px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .one {
     position: absolute;
     left: clamp(633px, 65.93328vw, 2532px);
-    top: clamp(349.5px, 36.40392vw, 1398px);
+    top: clamp(335px, 34.8936vw, 1340px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .two {
     position: absolute;
-    left: clamp(320px, 33.3312vw, 1280px);
-    top: clamp(332.5px, 34.6332vw, 1330px);
+    left: clamp(317.5px, 33.0708vw, 1270px);
+    top: clamp(310px, 32.2896vw, 1240px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .three {
     position: absolute;
     left: clamp(624px, 64.99584vw, 2496px);
-    top: clamp(262.5px, 27.342vw, 1050px);
+    top: clamp(235px, 24.4776vw, 940px);
   }
   * body .main-screen .m-container .main-content .pc-models-container .model-container .three:hover + .three-t {
     transition: color 0.3s ease;
@@ -284,22 +304,13 @@
   * body .main-screen .m-container .main-content .model-text {
     display: none;
   }
-  * body .phone-link {
-    width: clamp(32px, 3.33312vw, 128px);
-    height: clamp(32px, 3.33312vw, 128px);
-    border-radius: 100px;
+  * body .astronaut {
+    width: clamp(50px, 5.208vw, 200px);
+    height: clamp(75px, 7.812vw, 300px);
     position: fixed;
-    background-color: #FF6A3A;
     right: clamp(16px, 1.6666666667vw, 64px);
     bottom: clamp(16px, 1.6666666667vw, 64px);
     transition: 0.3s;
     z-index: 100;
-  }
-  * body .phone-link:hover {
-    background-color: #FF480C;
-  }
-  * body .phone-link .fill-arrow {
-    font-size: clamp(20px, 2.0833333333vw, 80px);
-    color: white;
   }
 }/*# sourceMappingURL=main.css.map */

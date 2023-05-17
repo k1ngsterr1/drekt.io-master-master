@@ -46,6 +46,9 @@ $font64: clamp(32px,3.33312vw,128px)
 *
     body
 
+        .about-container
+            margin-top: 320px !important
+
         .container
             width: 89.74358974358974%
             height: auto
@@ -54,7 +57,7 @@ $font64: clamp(32px,3.33312vw,128px)
             flex-direction: column
             align-items: center
             justify-content: center
-            margin-top: $mob128
+            // margin-top: $mob128
 
             .about-content
                 width: 100%
@@ -195,7 +198,7 @@ $font64: clamp(32px,3.33312vw,128px)
 
                 .container
                     width: 86.45833333333333%
-                    margin-top: $pc128
+                    margin-top: clamp(150px,15.625vw,600px)
 
                     .about-content
 
@@ -214,6 +217,7 @@ $font64: clamp(32px,3.33312vw,128px)
 
                             .reg-cases-heading
                                 font-size: $font48
+                                margin-top: $pc64
 
                             .swiper-container
                                 display: none
