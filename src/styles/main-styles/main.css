@@ -52,13 +52,14 @@
   background-color: #65B1B7;
 }
 * body .m-container .main-content .mobile-header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   z-index: 1000;
-  top: clamp(8px, 3.73824vw, 32px);
-  left: clamp(8px, 3.73824vw, 32px);
+  background-color: #F5F5F5;
+  top: 0;
 }
 * body .m-container .main-content .mobile-header .header-model {
   width: clamp(37.5px, 17.523vw, 150px);

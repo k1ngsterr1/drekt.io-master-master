@@ -4,8 +4,7 @@
 $orange: #FF6A3A
 $blue: #75B9BE
 $black: #1E1E1E
-$white: #D9D9D9
-
+$white: #F5F5F5
 // Margins
 $mob8: clamp(4px,1.86912vw,16px)
 $mob16: clamp(8px,3.73824vw,32px)
@@ -97,13 +96,14 @@ $font64: clamp(32px,3.33312vw,128px)
                             background-color: #65B1B7
 
                 .mobile-header
+                    width: 100%
                     display: flex
                     align-items: center
                     justify-content: center
                     position: fixed
                     z-index: 1000
-                    top: clamp(8px,3.73824vw,32px)
-                    left: clamp(8px,3.73824vw,32px)
+                    background-color: $white
+                    top: 0
 
                     .header-model
                         width: clamp(37.5px,17.523vw,150px)
