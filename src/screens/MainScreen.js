@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useState } from "react";
+
 // Assets
 
 import aboutLine from "../assets/about-family-line.svg";
@@ -13,7 +15,18 @@ import threeDPC from "../assets/pc_model.png";
 import ball from "../assets/ball.png";
 import smoothBall from "../assets/smooth_ball.png";
 
+// Styles
+
 import styles from "../styles/main-styles/main.css";
+
+// Hooks
+
+import {
+  HideBetween,
+  HideDuring,
+  HideOn,
+  HideScroll,
+} from "react-hide-on-scroll";
 
 import { useNavigate } from "react-router-dom";
 
@@ -24,20 +37,30 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import astronaut from "../assets/astronaut.png";
 
 const MainScreen = () => {
-  const navigate = useNavigate();
+  const [isVisible, setIsVisible] = useState(true);
 
   return (
     <div className="main-screen" id="main">
       <div className="m-container main-c">
         <main className="main-content">
-          <Fade bottom>
-            <img className="heading" src={heading}></img>
-          </Fade>
-          {/* Тут должна быть 3д модель */}
-          <Fade bottom>
-            <img className="model" src={threeD}></img>
-          </Fade>
-          <button className="rekt-button">Let's Rekt</button>
+          <HideOn divID={"about"}>
+            <div className="mobile-first" id="hide">
+              <Fade bottom>
+                <img className="heading" src={heading}></img>
+              </Fade>
+              {/* Тут должна быть 3д модель */}
+              <Fade bottom>
+                <img className="model" src={threeD}></img>
+              </Fade>
+              <button className="rekt-button">Let's Rekt</button>
+            </div>
+          </HideOn>
+          <HideOn inverse divID={"about"}>
+            <div className="mobile-header">
+              <img className="header-model" src={threeD}></img>
+              <img className="header-dev" src={heading}></img>
+            </div>
+          </HideOn>
           <div className="pc-models-container">
             <div className="model-container">
               <Fade bottom>

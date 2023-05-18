@@ -62,36 +62,59 @@ $font64: clamp(32px,3.33312vw,128px)
                 align-items: center
                 justify-content: center
 
-                .heading
-                    width: clamp(192.5px,89.95139999999999vw,770px)
+                .mobile-first
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+
+                    .heading
+                        width: clamp(192.5px,89.95139999999999vw,770px)
+
+                    .model
+                        margin-top: $mob64
+                        filter: drop-shadow(0px 57px 66px rgba(0, 0, 0, 0.15))
+
+                    .model-text
+                        color: $blue
+                        margin-top: $mob16
+
+                    .rekt-button
+                        background-color: $blue
+                        font-family: 'Montserrat'
+                        font-style: normal
+                        color: $black
+                        font-weight: 700
+                        font-size: $fontmob21
+                        margin-top: $mob64
+                        border-radius: 100px
+                        outline: none
+                        border: none
+                        width: clamp(155.5px,72.66203999999999vw,622px)
+                        height: clamp(27.5px,12.8502vw,110px)
+                        transition: 0.3s all
+                        &:hover
+                            background-color: #65B1B7
+
+                .mobile-header
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    position: fixed
+                    z-index: 1000
+                    top: clamp(8px,3.73824vw,32px)
+                    left: clamp(8px,3.73824vw,32px)
+
+                    .header-model
+                        width: clamp(37.5px,17.523vw,150px)
+                        height: clamp(37.5px,17.523vw,150px)
+
+                    .header-dev
+                        width: clamp(135px,63.0828vw,540px)
+                        margin-left: clamp(7px,3.2709599999999996vw,28px)
 
                 .pc-models-container
                     display: none
-
-                .model
-                    margin-top: $mob64
-                    filter: drop-shadow(0px 57px 66px rgba(0, 0, 0, 0.15))
-
-                .model-text
-                    color: $blue
-                    margin-top: $mob16
-
-                .rekt-button
-                    background-color: $blue
-                    font-family: 'Montserrat'
-                    font-style: normal
-                    color: $black
-                    font-weight: 700
-                    font-size: $fontmob21
-                    margin-top: $mob64
-                    border-radius: 100px
-                    outline: none
-                    border: none
-                    width: clamp(155.5px,72.66203999999999vw,622px)
-                    height: clamp(27.5px,12.8502vw,110px)
-                    transition: 0.3s all
-                    &:hover
-                        background-color: #65B1B7
 
         .astronaut
             width: clamp(35px,16.354799999999997vw,140px)
@@ -356,6 +379,9 @@ $font64: clamp(32px,3.33312vw,128px)
 
                         .model-text
                             display: none
+
+                .mobile-header
+                    display: none !important
 
             .astronaut
                 width: clamp(50px,5.208vw,200px)
