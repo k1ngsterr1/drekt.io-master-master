@@ -253,7 +253,7 @@ $font64: clamp(32px,3.33312vw,128px)
                                 .zero-t
                                     position: absolute
                                     left: clamp(327.5px,34.1124vw,1310px)
-                                    top: clamp(232.5px,24.217200000000002vw,930px)
+                                    top: clamp(280px,21.875vw,1120px)
 
                                 .model-pc
                                     width: clamp(179px,18.64464vw,716px)
@@ -392,3 +392,166 @@ $font64: clamp(32px,3.33312vw,128px)
                 bottom: clamp(16px,1.6666666666666667vw,64px)
                 transition: 0.3s
                 z-index: 100
+
+@media screen and (min-width: 2000px)
+
+    *
+        body
+
+            .main-screen
+                width: 100%
+                height: 65vh
+                margin-bottom: 100px
+
+                .m-container
+                    width: 80.45833333333333%
+                    margin-top: $pc64
+
+                    .heading
+                        width: clamp(1025px,80.078125vw,4100px) !important
+                        height: clamp(122px,12.70752vw,488px)
+
+                        .model
+                            display: none
+
+                    .pc-models-container
+                        width: 100%
+                        display: flex
+                        align-items: center
+                        justify-content: space-between
+
+                        .model-pc
+                            width: clamp(195px,15.234375vw,780px) !important
+                            height: clamp(190px,14.84375vw,760px) !important
+
+                        .hex
+                            width: clamp(175px,13.671875vw,700px) !important
+
+                        .one-t
+                            position: absolute
+                            left: clamp(567px,59.05872vw,2268px)
+                            top: clamp(396.5px,30.9765625vw,1586px) !important
+
+                        .two-t
+                            position: absolute
+                            left: clamp(267px,27.81072vw,1068px)
+                            top: clamp(380px,29.6875vw,1520px) !important
+
+                        .zero-t
+                            position: absolute
+                            left: clamp(327.5px,34.1124vw,1310px)
+                            top: clamp(232.5px,24.217200000000002vw,930px)
+
+                        .model-pc
+                            width: clamp(179px,18.64464vw,716px)
+                            height: clamp(177px,18.436320000000002vw,708px)
+
+                        .house-line
+                            position: absolute
+                            width: clamp(56px,5.83296vw,224px)
+                            height: clamp(18px,1.87488vw,72px)
+                            left: clamp(340px,35.416666666666664vw,1360px)
+                            top: clamp(400px,31.25vw,1600px) !important
+
+                        .regular-line
+                            position: absolute
+                            width: clamp(56px,5.83296vw,224px)
+                            height: clamp(18px,1.87488vw,72px)
+                            left: clamp(564px,58.74624vw,2256px)
+                            top: clamp(250px,26.04vw,1000px)
+
+                        .about-line
+                            position: absolute
+                            width: clamp(56px,5.83296vw,224px)
+                            height: clamp(18px,1.87488vw,72px)
+                            left: clamp(240px,24.9984vw,960px)
+                            top: clamp(300px,23.4375vw,1200px) !important
+
+                        .family-line
+                            position: absolute
+                            width: clamp(56px,5.83296vw,224px)
+                            height: clamp(18px,1.87488vw,72px)
+                            left: clamp(660px,68.7456vw,2640px)
+                            top: clamp(415px,32.421875vw,1660px) !important
+
+                        .hex
+                            width: clamp(155.5px,16.19688vw,622px)
+
+                        .orange-point
+                            width: clamp(20.5px,2.13528vw,82px)
+                            height: clamp(20.5px,2.13528vw,82px)
+                            background-color: transparent
+                            display: flex
+                            transition: background-color 0.3s all ease
+                            align-items: center
+                            justify-content: center
+                            border: 2px solid $orange
+                            border-radius: 100px
+
+                            .circle
+                                width: clamp(12px,1.24992vw,48px)
+                                height: clamp(12px,1.24992vw,48px)
+                                background-color: $orange
+                                border-radius: 100px
+                                cursor: pointer
+
+                        .zero
+                            position: absolute
+                            left: clamp(300px,31.248vw,1200px)
+                            top: clamp(225px,21.484375vw,1100px) !important
+
+                        .one
+                            position: absolute
+                            left: clamp(633px,65.93328vw,2532px)
+                            top: clamp(390px,30.46875vw,1560px) !important
+
+                        .two
+                            position: absolute
+                            left: clamp(317.5px,33.0708vw,1270px)
+                            top: clamp(375px,29.296875vw,1500px) !important
+
+                        .three
+                            position: absolute
+                            left: clamp(624px,64.99584vw,2496px)
+                            top: clamp(235px,24.4776vw,940px)
+
+                        .three
+                            &:hover + .three-t
+                                transition: color 0.3s ease
+                                color: $orange
+                        .zero
+                            &:hover .three-t
+                                transition: color 0.3s ease
+                                color: $orange
+                        .one, .two,  .zero
+                            &:hover + .text
+                                transition: color 0.3s ease
+                                color: $orange
+                        .two
+                            &:hover + .three-t
+                                transition: color 0.3s ease
+                                color: $orange
+                        .one, .two, .three, .zero
+                            &:hover
+                                width: clamp(22px,2.2915200000000002vw,88px)
+                                height: clamp(22px,2.2915200000000002vw,88px)
+                        .one
+                            transition: 0.3s all
+                            &:hover > .one-c
+                                transition: 0.3s all
+                                background-color: #FF480C
+                        .two
+                            transition: 0.3s all
+                            &:hover > .two-c
+                                transition: 0.3s all
+                                background-color: #FF480C
+                        .three
+                            transition: 0.3s all
+                            &:hover > .three-c
+                                transition: 0.3s all
+                                background-color: #FF480C
+                        .zero
+                            transition: 0.3s all
+                            &:hover > .zero-c
+                                transition: 0.3s all
+                                background-color: #FF480C
